@@ -1,0 +1,8 @@
+# Ignorar carpeta node_modules en cualquier nivel
+node_modules/
+
+# Ignorar cualquier archivo .env en cualquier carpeta
+*.env
+
+# Ignorar específicamente el archivo .env dentro de /backend (opcional si *.env ya está)
+backend/.env
